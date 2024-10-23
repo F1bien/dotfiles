@@ -1,0 +1,42 @@
+#!/usr/bin/env bash
+
+
+# SYSTEM
+alias shutdown='shutdown now'
+alias restart='reboot'
+alias suspend='pm-suspend'
+
+# LS
+#alias ls='ls --color=auto'
+#alias l='ls -l'
+#alias ll='ls -lahF'
+#alias lls='ls -lahFtr'
+#alias la='ls -A'
+#alias lc='ls -CF'
+
+# EXA
+#$EZADEFAULT="--oneline --group-directories-first --icons=always"
+alias eza="eza --oneline --group-directories-first --icons=always"
+alias ls="eza"
+alias ll="eza --all --long --no-permissions --time=modified --no-user --git-repos"
+alias la="eza --all --long --total-size --time=modified --git-repos"
+alias ld="eza --all --only-dirs"
+alias lf="eza --all --only-files"
+
+# bat
+#alias bat='batcat'
+
+# +--------+
+# | Neovim |
+# +--------+
+#alias vim='nvim'
+#alias svim='sudoedit'
+#alias lvim='\vim -c "set nowrap|syntax off"'        # fast vim for big files / big oneliner
+
+
+# Folders
+#alias work="$HOME/workspace"
+#alias doc="$HOME/Documents"
+#alias dow="$HOME/Downloads"
+#alias dot="$HOME/.dotfiles"
+
