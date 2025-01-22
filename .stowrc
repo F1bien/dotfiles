@@ -1,0 +1,4 @@
+--target=$XDG_CONFIG_HOME
+
+--ignore=.stowrc
+--ignore=setup.sh
