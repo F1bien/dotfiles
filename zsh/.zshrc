@@ -1,6 +1,4 @@
 
-fpath+=($DOTFILES/zsh/plugins)
-
 
 # HISTORY
 setopt EXTENDED_HISTORY
@@ -18,7 +16,7 @@ source $ZDOTDIR/aliases
 
 
 # COMPLETION
-source $DOTFILES/zsh/completion.zsh
+# source $DOTFILES/zsh/completion.zsh
 
 
 # PROMPT
@@ -26,16 +24,16 @@ eval "$(starship init zsh)"
 
 
 # SYNTAX HIGHLIGHTING
-source $DOTFILES/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# source $DOTFILES/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 
 # AUTO SUGGESTIONS
-source $DOTFILES/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+# source $DOTFILES/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 
 # FZF
 source <(fzf --zsh)
 
 # HOMEBREW
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+# eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
