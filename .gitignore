@@ -1,8 +1,8 @@
 
 
-tmux/plugins/*
 
+tmux/plugins/*
 
 zsh/.zhistory
 
-
+nvim/lazy-lock.json
