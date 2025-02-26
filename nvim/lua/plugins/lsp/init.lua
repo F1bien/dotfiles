@@ -1,4 +1,5 @@
 return {
+
 	-- lsp config
 	{
 		"neovim/nvim-lspconfig",
@@ -9,17 +10,17 @@ return {
 		},
 		config = function()
 			local lspconfig = require("lspconfig")
-			
 		end,
 	},
-	
+
 	-- mason
 	{
 		"williamboman/mason.nvim",
 		opts = {
 			ui = { border = "single" },
 		},
-		config = function(_, opts) require("mason").setup(opts) end,
+		config = function(_, opts)
+			require("mason").setup(opts)
+		end,
 	},
-
 }

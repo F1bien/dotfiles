@@ -23,12 +23,13 @@ alias la="eza --all --long --total-size --time=modified --git-repos"
 alias ld="eza --all --only-dirs"
 alias lf="eza --all --only-files"
 
+# zathura
+alias zathura="GDK_BACKEND=x11 zathura"
+
 # bat
 #alias bat='batcat'
 
-# +--------+
-# | Neovim |
-# +--------+
+# NVIM
 #alias vim='nvim'
 #alias svim='sudoedit'
 #alias lvim='\vim -c "set nowrap|syntax off"'        # fast vim for big files / big oneliner
