@@ -37,9 +37,6 @@ return {
 				callback = function(ev)
 					vim.bo[ev.buf].omnifunc = "v:lua.vim.lsp.omnifunc"
 
-					-- ╭─────────╮
-					-- │ KEYMAPS │
-					-- ╰─────────╯
 					local bufopts = function(desc)
 						return { buffer = ev.buf, desc = desc }
 					end
