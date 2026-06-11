@@ -1,1 +1,3 @@
-
+configuration {
+    modes: "window,run,drun";
+}

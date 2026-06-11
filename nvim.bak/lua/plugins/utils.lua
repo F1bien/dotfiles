@@ -159,4 +159,28 @@ return {
 			},
 		},
 	},
+    {
+        "SirVer/ultisnips",
+        lazy = false,
+		config = function(_, opts)		
+	
+			-- Trigger configuration.
+			vim.g.UltiSnipsExpandTrigger = "<tab>"
+			vim.g.UltiSnipsListSnippets = "<c-tab>"
+			vim.g.UltiSnipsJumpForwardTrigger = "<c-j>"
+			vim.g.UltiSnipsJumpBackwardTrigger = "<c-k>"
+			
+			-- " If you want :UltiSnipsEdit to split your window.
+			vim.g.UltiSnipsEditSplit = "vertical"
+			vim.g.UltiSnipsAutoTrigger = 0
+
+			-- "Directories
+			vim.g.UltiSnipsSnippetDirectories = {"snips"}
+
+			vim.g.UltiSnipsSnippetsDir = "~/.dotfiles/nvim/snips"
+
+		end
+
+		
+    },
 }
